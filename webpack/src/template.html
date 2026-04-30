@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar">
+      <button>HOME</button>
+      <button>PROJECTS</button>
+    </div>
+
+    <!-- create a to do item -->
+    <div id="todo-area">
+      <form id="create-todo-form">
+        <label for="task-name">What Do You Need To Do Today?</label>
+        <input type="text" id="task-name" />
+        <label for="task-due-date">When is it Do By?</label>
+        <input type="date" id="task-due-date" />
+        <button type="submit" id="submit-todo-item">
+          Add to List of To Do's
+        </button>
+      </form>
+      <div id="todo-list"></div>
+    </div>
+  </body>
+</html>
